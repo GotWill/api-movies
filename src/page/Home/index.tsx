@@ -1,7 +1,6 @@
 import * as C from './styles'
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import { Api } from '../../Api'
 import { Movies } from '../../types/Movies'
 import { apiKey } from '../../config/key'
 import { Loading } from '../../components/loading'
